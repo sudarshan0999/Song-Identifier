@@ -128,13 +128,13 @@ if not st.session_state.is_recording and st.session_state.audio_data is None:
 
 st.write("---")  # Another separator
 
-# # Footer
-# st.markdown(
-#     """
-#     <div style="text-align:center; color:lightgray; font-size:small;">
+# Footer
+st.markdown(
+    """
+    <div style="text-align:center; color:lightgray; font-size:small;">
    
-#     </div>
-#     """, 
-#     unsafe_allow_html=True
-# )
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
 
